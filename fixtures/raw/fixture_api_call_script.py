@@ -35,7 +35,7 @@ try:
         print("Sample fixture:", data["response"][0])
 
     # -------- SAVE TO FILE --------
-    save_dir = r"C:\Users\Sam\OneDrive\Documents\databricks_football\raw\fixtures"
+    save_dir = r"C:\Users\Sam\OneDrive\Documents\football_stats\raw\fixtures"
     os.makedirs(save_dir, exist_ok=True)
 
     save_path = os.path.join(save_dir, f"fixtures_{SEASON}.json")
